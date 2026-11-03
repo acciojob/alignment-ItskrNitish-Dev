@@ -1,1 +1,82 @@
 /*  your css code here. If applicable */
+
+
+/* General styling */
+body {
+    font-family: "Times New Roman", serif;
+}
+
+/* Main heading */
+h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+/* Common table styling */
+.middle {
+    width: 80%;
+    margin: 0 auto 60px;
+    border: 1px solid black;
+    border-spacing: 1px;
+}
+
+/* Table cells */
+.middle td {
+    border: 1px solid black;
+    padding: 1px;
+}
+
+/* TABLE 1 */
+
+/* Center class for middle row */
+.center {
+    text-align: center;
+}
+
+/* Right class for rightmost column */
+.right {
+    text-align: right;
+}
+
+/* TABLE 2 */
+
+#table-2 {
+    height: 177px;
+}
+
+#table-2 td {
+    height: 25px;
+}
+
+/* TABLE 3 */
+
+#table-3 {
+    height: 305px;
+}
+
+/* Green background */
+.green {
+    background-color: green;
+    height: 25px;
+}
+
+/* Blue background */
+.blue {
+    background-color: blue;
+    height: 25px;
+}
+
+/* Image styling */
+#t-image {
+    text-align: center;
+}
+
+#t-image img {
+    width: 340px;
+    height: 240px;
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
